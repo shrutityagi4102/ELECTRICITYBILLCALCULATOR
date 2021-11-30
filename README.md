@@ -1,2 +1,2 @@
-# ELECTRICITYBILLCALCULATOR
-AS PART OF MY OOPM IA, I MADE AN ELECTRICITY BILL CALCULATOR USING INHERITANCE IN JAVA
+# ELECTRICITY BILL CALCULATOR
+Aa part of my Object Oriented Programming Internal Assesment, I made an Electricity Bill Calculator in Java using Inheritance

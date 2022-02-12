@@ -3,6 +3,7 @@
 As part of our Object Oriented Programming Internal Assesment, Varshaah and I made an Electricity Bill Calculator in Java using Inheritance
 
 ComputerElectricityBill.java has our code
+
 OOPM IA 2.mp4 has a video we made explaining what Inheritance is, different types of Inheritance, it's advantages and disadvantages and finally, our problem statement and how we solved it using Inheritance
 
 ## Problem Definition
@@ -15,6 +16,7 @@ On entering the units of electricity consumed, the task is to calculate the elec
 ## Code Explanation
 
 We used the concept of inheritance in this code. The parent class is CalculateBill. It has a double variable. This class contains a function, Bill, to calculate the bill generated. This function Bill has an input parameter of type long, which is used to store the units. The calculated bill is stored in a variable called billpay.
+
 Now, the child class, ComputeElectricityBill, is declared. This class is derived from the class CalculateBill. The number of units consumed is taken as input from the user. Then an object of the class ComputeElectricityBill is created. Using this object, we access the function Bill, which belongs to the class CalculateBill. The bill is calculated using this function and displayed.
 
 ## Working Explained using a flowchart 
@@ -25,17 +27,17 @@ Now, the child class, ComputeElectricityBill, is declared. This class is derived
 
 1. Start
 2. Create a class to calculate the electricity bill
-   a. Declare a variable to store the calculated bill
-   b. Create a function to calculate the electricity bill
-       i. If units consumed < 100: bill = units*1.20
-       ii. If 100 < units consumed < 300: bill = (units*1.20) + (units-100)*2
-       iii. If units consumed > 300: bill = (100*1.20) + (200 *2) + (units-300)*3
+   - Declare a variable to store the calculated bill
+   - Create a function to calculate the electricity bill
+       -- If units consumed < 100: bill = units*1.20
+       -- If 100 < units consumed < 300: bill = (units*1.20) + (units-100)*2
+       -- If units consumed > 300: bill = (100*1.20) + (200 *2) + (units-300)*3
 3. Create a child class inherited from the above class (parent class)
-   a. Declare a variable to store the units
-   b. Take the number of units consumed from the user 
-   c. Create an object of the class ComputeElectricityBill
-   d. Call the function to calculate the electricity bill, which belongs to the parent class
-   e. Display the calculated electricity bill
+   - Declare a variable to store the units
+   - Take the number of units consumed from the user 
+   - Create an object of the class ComputeElectricityBill
+   - Call the function to calculate the electricity bill, which belongs to the parent class
+   - Display the calculated electricity bill
 
 ## Class Diagram
 

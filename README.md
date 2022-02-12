@@ -2,6 +2,9 @@
 
 As part of our Object Oriented Programming Internal Assesment, Varshaah and I made an Electricity Bill Calculator in Java using Inheritance
 
+ComputerElectricityBill.java has our code
+OOPM IA 2.mp4 has a video we made explaining what Inheritance is, different types of Inheritance, it's advantages and disadvantages and finally, our problem statement and how we solved it using Inheritance
+
 ## Problem Definition
 
 On entering the units of electricity consumed, the task is to calculate the electricity bill with the help of the below charges :

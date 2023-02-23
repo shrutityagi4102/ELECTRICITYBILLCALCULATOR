@@ -4,7 +4,7 @@ As part of our Object Oriented Programming Internal Assesment, Varshaah and I ma
 
 ComputerElectricityBill.java has our code
 
-![](oopm.mp4)
+https://user-images.githubusercontent.com/71224019/221003412-bdea2dd9-5802-4cba-b32a-2597be26fb6d.mp4
 
 ## Problem Definition
 
